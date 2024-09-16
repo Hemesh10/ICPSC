@@ -29,7 +29,7 @@ void solve(int t) {
 		sort(A, A+n);
 		ll constant_gcd=0;
 		for(int i=0;i<n;i++) {
-			constant_gcd = __gcd(constant_gcd, A[i]%A[0]);
+			constant_gcd = __gcd(constant_gcd, A[i]-A[0]);
 		}
 		for(int i=0;i<m;i++) {
 			cout<<__gcd(A[0]+B[i], constant_gcd)<<' ';
