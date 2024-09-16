@@ -25,6 +25,8 @@ void solve(int t) {
 		}
 		int p_fge[n]={0}, n_fge[n]={0};
 		
+		cout<<"Hello, Hemesh!"<<'\n';
+		
 		int furthest_largest_index = 0;
 		for(int i=0;i<n;i++) {
 			if(arr[furthest_largest_index]>arr[i]) {
@@ -43,18 +45,7 @@ void solve(int t) {
 				n_fge[i] = -1;
 			}
 			if(arr[i]>arr[furthest_largest_index]) furthest_largest_index = i;
-		} 
-		
-		for(int i=0;i<n;i++) {
-			cout<<arr[i]<<'\t';
-		} cout<<'\n';
-		for(int i=0;i<n;i++) {
-			cout<<p_fge[i]<<'\t';
-		}cout<<'\n';			
-		for(int i=0;i<n;i++) {
-			cout<<n_fge[i]<<'\t';
-		}cout<<'\n';
-		cout<<'\n';
+		} 		
 		
 		ll total=0;
 		for(int i=0;i<n;i++) {

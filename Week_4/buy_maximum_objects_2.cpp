@@ -51,19 +51,3 @@ int main() {
 	// cin>>t;
 	solve(t);
 }
-
-
-// # Initialize a new git repository
-// git init
-
-// # Add all files to the repository
-// git add .
-
-// # Commit the files
-// git commit -m "Initial commit"
-
-// # Create a new repository on GitHub using the GitHub CLI
-// gh repo create {repo_name} --public --source=. --remote=origin
-
-// # Push the changes to GitHub
-// git push -u origin main
