@@ -31,6 +31,7 @@ void solve(int t) {
 		for(int i=0;i<n;i++) {
 			constant_gcd = __gcd(constant_gcd, A[i]-A[0]);
 		}
+		cerr<<constant_gcd<<'\n';
 		for(int i=0;i<m;i++) {
 			cout<<__gcd(A[0]+B[i], constant_gcd)<<' ';
 		}
